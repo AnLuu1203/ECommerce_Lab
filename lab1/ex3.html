@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> Exercise 3 </title>
+  <style type="text/css">
+    #to_email {
+      background-color: lightgrey;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="title">
+    <h1> Reply to Admin </h1>
+  </div>
+
+  <div id="content">
+
+    <div class="form-description">
+      <p> Use the following form to response to the Admin </p>
+    </div>
+
+    <div id="form-input">
+      <form>
+
+        <table>
+
+          <tr>
+            <td><label for="to_email"> To </label></td>
+            <td>
+              <input type="email" name="to_email" id="to_email" readonly value="admin@abc.com">
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="from_email"> From </label></td>
+            <td>
+              <input type="email" name="from_email" id="from_email">
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="subject"> Subject </label></td>
+            <td>
+              <input type="text" name="subject" size="35" id="subject">
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="body"> Body </label></td>
+            <td>
+              <textarea name="body" rows="6" cols="60" id="body"> </textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td><button type="submit"> Send </button></td>
+          </tr>
+
+        </table>
+
+      </form>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
