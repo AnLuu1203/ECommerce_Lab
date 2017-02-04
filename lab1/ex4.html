@@ -7,7 +7,7 @@
   <style type="text/css">
     .background {
       background-image: url("green-parrot.jpg");
-      height: 800px;
+      height: 900px;
       background-size: 100% 100%;
       position: relative;
     }
@@ -16,14 +16,129 @@
       position: absolute;
       top: 100px;
       left: 100px;
+      width: 400px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    #quote_4 span {
+      padding-right: 20px;
+    }
+
+    #quote {
+      border: 3px dashed #000;
+      border-radius: 10px;
+    }
+
+    #quote_title {
+      position: relative;
+    }
+
+    .color-table {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .color-table div{
+      height: 100%;
+      width: 10%;
+      float: left;
+    }
+
+    .title {
+      z-index: 100;
+      position: relative;
+    }
+
+    .background-1 {
+      background-color: black;
+    }
+
+    .background-2 {
+      background-color: red;
     }
   </style>
 </head>
 
 <body>
   <div class="background">
+
     <div class="content">
+
+      <div id="quote_title">
+
+        <div class="color-table">
+          <div class="background-1"></div>
+          <div class="background-2"></div>
+          <div class="background-3"></div>
+          <div class="background-4"></div>
+          <div class="background-5"></div>
+          <div class="background-6"></div>
+          <div class="background-7"></div>
+          <div class="background-8"></div>
+          <div class="background-9"></div>
+          <div class="background-10"></div>
+        </div>
+
+        <div class="title">
+          <h2> Today's Quote </h2>
+        </div>
+
+      </div>
+
+      <div id="quote">
+
+        <div id="quote_1">
+          <h4> a Day </h4>
+        </div>
+
+        <div id="quote_2" class="text-center">
+          <h4> without </h4>
+        </div>
+
+        <div id="quote_3" class="text-right">
+          <h4> SUNSHINE </h4>
+        </div>
+
+        <div id="quote_4" class="text-left">
+          <h4>
+            <span> i s </span>
+            <span> l i k e </span>
+          </h4>
+        </div>
+
+        <div id="quote_5" class="text-left">
+          <h4> You know... </h4>
+        </div>
+
+        <div id="quote_6" class="text-center">
+          <h4> NIGHT </h4>
+        </div>
+
+        <div id="quote_7" class="text-right">
+          <h4> Steve Martin </h4>
+        </div>
+
+      </div>
+
     </div>
+
   </div>
 </body>
 
