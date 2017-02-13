@@ -83,6 +83,13 @@ header {
   margin-bottom: 20px;
 }
 
+.information .submission {
+  background-color: #ED9325;
+  height: 200px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
 footer {
   background-color: #3195D0;
   padding: 10px 0;
