@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  width: 900px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background {
+  background-color: #FFFF99;
+}
+
+header {
+  letter-spacing: 10px;
+  color: #EE4B47;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.menu-tabs ul li {
+  padding: 3px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu-tabs ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.menu-tabs {
+  background-color: #3195D0;
+}
+
+.menu-seperator {
+  display: inline;
+  border: 1px solid #000;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner {
+  margin: 10px 0;
+}
+
+.information .reference ul {
+  list-style: none;
+}
+
+.information .reference {
+  width: 30%;
+  background-color: #00B100;
+  padding: 40px 20px;
+}
+
+.information .welcome {
+  width: 70%;
+  background-color: #ED9325;
+  padding: 40px 20px;
+}
+
+.information {
+  display: flex;
+  align-items: stretch;
+  color: #fff;
+}
+
+.information a {
+  color: #fff;
+}
+
+.information .title {
+  margin-bottom: 20px;
+}
+
+.information .submission {
+  background-color: #ED9325;
+  height: 200px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+footer {
+  background-color: #3195D0;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#form {
+  background-color: #ED9325;
+  color: #fff;
+  width: 700px;
+  margin: auto;
+  padding: 5px 15px;
+}
+
+#form .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#form .label {
+  width: 125px;
+}
+
+.long-text {
+  width: 220px;
+}
