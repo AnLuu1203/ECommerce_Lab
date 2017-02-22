@@ -17,8 +17,15 @@ ul {
   margin: 50px auto;
 }
 
+.gallery ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .gallery li {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .image-box {
