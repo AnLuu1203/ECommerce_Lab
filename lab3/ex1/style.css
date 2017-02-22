@@ -2,14 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 ul {
   list-style: none;
 }
 
+body {
+  background-color: #e8d468;
+}
+
 section.content {
-  width: 900px;
+  width: 700px;
   margin: auto;
   margin-top: 100px;
 }
@@ -19,10 +24,19 @@ section.content {
   border-radius: 10px;
   overflow: hidden;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .background-beginner {
@@ -55,4 +69,25 @@ section.content {
 
 .display-top {
   vertical-align: top;
+}
+
+ul.information li {
+  padding: 5px 0;
+}
+
+ul.information li:nth-child(odd) {
+  background-color: #fcfaf9;
+}
+
+ul.information li:nth-child(even) {
+  background-color: #e5dcda;
+}
+
+.title {
+  padding: 10px 0;
+  color: #fff;
+}
+
+.text-bold {
+  font-weight: bold;
 }
