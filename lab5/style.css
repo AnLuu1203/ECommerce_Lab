@@ -1,0 +1,18 @@
+section#tasks {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-image: url('note_paper.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.form-input-task {
+  padding-top: 40px;
+  width: 400px;
+  margin: auto;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
