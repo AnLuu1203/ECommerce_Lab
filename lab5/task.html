@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <section id="tasks">
+    <div class="form-input-task">
+      <h2>Do you miss anything</h2>
+      <input type="text" name="task" id="input_task" onkeydown="if (event.keyCode == 13) add_task();">
+
+      <ul id="show_tasks">
+      </ul>
+
+      <div id="remaining-tasks">
+        <span>Remaining tasks: </span>
+        <span id="task_number">0</span>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
