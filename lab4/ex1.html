@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise 1</title>
+  <style type="text/css">
+    section#form {
+      width: 50%;
+      display: inline-block;
+      float: left;
+    }
+    section#review {
+      width: 40%;
+      display: inline-block;
+      float: left;
+      border: 1px solid #000;
+      padding: 5px 10px;
+    }
+
+    .information {
+      height: 0;
+      overflow: hidden;
+    }
+
+    .row-infor {
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body id="form_fill_information">
+  <section id="form">
+
+    <div class="title">
+      <h1>Please fill in the following information</h2>
+    </div>
+
+    <div class="form-table">
+
+      <form id="form-submit">
+
+        <table>
+
+          <tr>
+            <td class="label"><label for="last_name">Last Name*</label></td>
+            <td><input type="text" name="last_name" id="last_name" required="true"></td>
+
+            <td><label for="first_name">First Name*</label></td>
+            <td><input type="text" name="first_name" id="first_name" required="true"></td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="email">Email*</label></td>
+            <td colspan="3">
+              <input type="email" name="email" id="email" placeholder="example@abc.com" class="long-text" required="true">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="address">Address</label></td>
+            <td colspan="3">
+              <textarea id="address" cols="80" rows="5"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="sex">Sex</label></td>
+            <td colspan="3">
+              <input type="radio" name="sex" id="sex_man" value="Man"><span><label for="sex_man">Man</label></span>
+              <input type="radio" name="sex" id="sex_woman" value="Woman"><span><label for="sex_woman">Woman</label></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="birthday">Birthday</label></td>
+            <td colspan="3"><input type="date" name="birthday" id="birthday"></td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="job">Job*</label></td>
+            <td>
+              <select id="job" style="width: 150px" onchange="change_option_select();">
+                <option value="Student">Student</option>
+                <option value="Lecture">Lecture</option>
+                <option value="Other">Other</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="pay_for">You want to pay for*</label></td>
+            <td>
+              <select id="pay_for" style="width: 150px">
+                <option value="1 semester">1 semester</option>
+                <option value="1 year">1 year</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label"><label for="picture">Your Picture</label></td>
+            <td colspan="3"><input type="file" name="picture" id="picture"></td>
+          </tr>
+
+          <tr>
+            <td><button type="submit">Submit</button></td>
+          </tr>
+
+        </table>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <section id="review">
+    <h2>Here review</h2>
+
+    <div class="information">
+      <div class="row-infor">
+        <span>Name: </span>
+        <span id="info_name"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Email: </span>
+        <span id="info_email"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Address: </span>
+        <span id="info_address"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Sex: </span>
+        <span id="info_sex"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Birthday: </span>
+        <span id="info_birthday"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Job: </span>
+        <span id="info_job"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>You want to pay for: </span>
+        <span id="info_pay_for"></span>
+      </div>
+
+      <div class="row-infor">
+        <span>Your Picture: </span>
+        <span id="info_picture"></span>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
